@@ -133,9 +133,17 @@ body{
   align-items: center;
 }
 
+.bq{
+  padding: 10px 0;
+}
+
 .description{
   width: 70%;
   padding-left: 20px
+}
+
+.slogan-header{
+  font-weight: 350;
 }
 
 .value-container{
@@ -147,10 +155,7 @@ body{
 }
 
 .testimonial-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 0;
+  text-align: center;
 }
 
 .avatar{
@@ -271,8 +276,4 @@ body{
   .bio-container{
     padding: 25px 0px;
   }
-}
-
-body{
-  width: 100%;
 }
