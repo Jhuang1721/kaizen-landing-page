@@ -10,9 +10,13 @@
   border-bottom: 0.5px solid lightgrey;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
+.navbar-kaizen{
+  font-weight: 600;
+  color: black;
+}
 
 .homepage-title{
   font-weight: 560;
@@ -161,6 +165,17 @@ body{
   padding: 6px;
 }
 
+.meet-team{
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 1192px) {
+  .banner-text{
+    color: white;
+    margin-top: 200px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .wechat-margin {
     margin-top: 60px;
@@ -173,8 +188,8 @@ body{
   .banner-text{
     text-align: left;
     font-size: 1.25rem;
-    margin-top: 200px;
-    color: white;
+    /*margin-top: 200px;*/
+/*    color: white;*/
     padding: 0;
     font-weight: 300;
     font-family: Montserrat,Arial,Helvetica,sans-serif;
@@ -184,9 +199,32 @@ body{
     margin-top: 80px;
   }
 
+  .team-bio{
+    text-align: center;
+    padding: 31px;
+  }
+
 }
 
 
+.team-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-pic{
+  height: 400px;
+  width: 250px;
+}
+
+.iphone{
+  height: 79vh;
+}
+
+.team{
+    padding: 50px;
+    background-color: rgba(232, 244, 250, 0.5);
+}
 
 @media only screen and (max-width: 768px) {
   .wechat-margin {
@@ -200,4 +238,38 @@ body{
   .feature-image{
     width: 100%;
   }
+
+  .wrapper-white{
+  background: white;
+  border-bottom: 0.5px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .team-bio{
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  border: 4px solid #343F5E;
+  width: 40%;
+  padding: 20px;
+  padding-right: 140px;
+  }
+
+  .profile-pic{
+  height: 380px;
+  width: 240px;
+  opacity: 0.5;
+  }
+
+  .bio-title{
+    font-style: italic;
+    font-weight: 200;
+  }
+
+  .bio-container{
+    padding: 25px 0px;
+  }
 }
+
